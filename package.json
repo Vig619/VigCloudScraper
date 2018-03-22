@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vig619/VigCloudScraper.git"
+    "url": "https://github.com/Vig619/vigcloudscraper.git"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
@@ -21,7 +21,7 @@
   ],
   "author": "Oleksii Sribnyi",
   "license": "MIT",
-  "homepage": "https://github.com/Vig619/VigCloudScraper",
+  "homepage": "https://github.com/Vig619/vigcloudscraper",
   "dependencies": {
     "request": "^2.49.0"
   },
