@@ -1,5 +1,5 @@
 {
-  "name": "cloudscraper",
+  "name": "vigcloudscraper",
   "version": "1.4.1",
   "description": "Bypasses cloudflare's anti-ddos page",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codemanki/cloudscraper.git"
+    "url": "https://github.com/Vig619/VigCloudScraper.git"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
@@ -21,7 +21,7 @@
   ],
   "author": "Oleksii Sribnyi",
   "license": "MIT",
-  "homepage": "https://github.com/codemanki/cloudscraper",
+  "homepage": "https://github.com/Vig619/VigCloudScraper",
   "dependencies": {
     "request": "^2.49.0"
   },

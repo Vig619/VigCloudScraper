@@ -241,10 +241,14 @@ function requestMethod(method) {
 
 function giveResults(options, error, response, body, callback) {
   if(typeof options.realEncoding === 'string') {
-    callback(error, response, body.toString(options.realEncoding));
-  } else {
-    callback(error, response, body);
+    body = boyd.toString(options.realEncoding);
   }
+ 
+  if(validationError = checkForErrors(error, body)) {
+    return callback(validationError, body, response);
+  }
+
+  callback(error, response, body);
 }
 
 module.exports = cloudscraper;
