@@ -1,5 +1,5 @@
 {
-  "name": "vigcloudscraper",
+  "name": "viguscloudscraper",
   "version": "1.4.1",
   "description": "Bypasses cloudflare's anti-ddos page",
   "main": "index.js",
